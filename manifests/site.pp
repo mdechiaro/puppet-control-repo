@@ -29,3 +29,6 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+# Enable "classes" lookup in hiera.
+lookup('classes', Array[String], 'unique').include
