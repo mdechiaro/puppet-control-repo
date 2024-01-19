@@ -31,4 +31,4 @@ node default {
 }
 
 # Enable "classes" lookup in hiera.
-lookup('classes', Array[String], 'unique').include
+$classes = lookup('classes', Array[String], 'unique').include
