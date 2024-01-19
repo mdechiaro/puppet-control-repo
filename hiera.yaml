@@ -7,6 +7,6 @@ hierarchy:
   data_hash: yaml_data
   paths:
   - "nodes/%{trusted.certname}.yaml"
-  - "roles/%{trusted.pp_role}-%{trusted.pp_apptier}.yaml"
-  - "roles/%{trusted.pp_role}.yaml"
+  - "roles/%{trusted.extensions.pp_role}-%{trusted.extensions.pp_apptier}.yaml"
+  - "roles/%{trusted.extensions.pp_role}.yaml"
   - "common.yaml"
