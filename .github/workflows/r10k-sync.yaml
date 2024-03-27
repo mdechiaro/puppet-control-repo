@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: r10k sync control
       shell: bash
-      run: r10k -c r10k.yaml deploy environment -mv
+      run: r10k -c r10k.yaml deploy environment -m
