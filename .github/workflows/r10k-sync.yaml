@@ -1,5 +1,6 @@
 ---
 name: r10k sync
+'on': push
 jobs:
   r10k_sync_control:
     runs-on: arc-runner-set
